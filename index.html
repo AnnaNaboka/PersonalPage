@@ -1,0 +1,307 @@
+<head>
+    <title>Хуевый сайт</title>
+</head>
+
+<!--PARAGRAPHS-->
+<p>Приветики, епта! Я бы хотел</p>
+<p>Second paragraph</p>
+<p>My name is Anna</p>
+
+<!--Элементы форматирования-->
+<p>Обычный текст</p>
+<p><b>Жирный текст</b></p>
+<p><big>Текст с крупным шрифтом</big></p>
+<p><i>Текст курсивом</i></p>
+<p><small>Текст мелким шрифтом</small></p>
+<p><strong>Важный текст</strong></p>
+<p><sub>Подстрочный текст</sub></p>
+<p><sup>Нандстрочный текст</sup></p>
+<p><ins>Вставленный текст</ins></p>
+<p><del>Удаленный текст</del></p>
+
+
+<!--LISTS-->
+<ul>
+<li>Юля</li>
+<li>Ли</li>
+<li>Так создаются маркированные списки: Юля основа Ли - сам текст в списке</li>
+</ul>
+
+<!-- ATTRIBUTES-->
+<!--hidden text/prompting-->
+<p title="Cool jacket">This is a piece of clothing I'd like you to complement</p>
+<!--placement of the text-->
+<p>Standard text alignment(выравнивание), align (выравнивать)</p>
+<p align="center">Center text alignment</p>
+<p align="right">Right text alingnment</p>
+<!--several attributes-->
+<p align="right" title="Several attributes">Right with prompting</p>
+
+<!--Inscription of the text НАЧЕРТАНИЕ ТЕКСТА-->
+<p>If a want to make text <b>bold</b> I can use even <strong>this</strong> but it makes NO DIFFERENCE</p>
+<p>If I want to make the text <i>Italic</i> I can even use <em>this tag</em></p>
+
+<!--HEADERS There are 1-6, often used: 1-3-->
+<h1>Первый заголовок самый важный</h1>
+<h2>Во втором менее важная инфа</h2>
+<h3>В третьем ничего супер важного по мнению логики сайта</h3>
+<h4>Тут новость из разряда "Юля купила булочку на рынке"</h4>
+<h5>Здась кот Юли нассал в лоток</h5>
+<h6>А тут даже если новость о том, что кого-то убили за гаражами, читатель вряд ли обратит внимание</h6>
+
+<!--NUMBERED LIST: ОЛЯ ли?-->
+<ol>
+    <div id="1234"></div><p><b>Оля решила пойти в магазин и купить:</b></p></div>
+<li>Масло для Аннушки, чтоб та его разлила;</li>
+<li>Печенье;</li>
+<li>Колбасу, чтоб на печенье ее сверху - бац!</li>
+<li>Кефир, потому что она худеет;</li>
+<li>Вино, потому что она женщина роковая, и последствия сочетания с кефиром ее не пугают;</li>
+</ol>
+
+<!--NESTED (ВЛОЖЕННЫЕ) LISTS-->
+<ul>
+    <li>Вот тут у нас просто с точечкой список
+        <ol>
+            <li>А потом, вау, нумерной, ничего себе!</li>
+            <li>И еще! А все потому, что вложенный!</li>
+         </ol>
+   </li>
+   <li>И магия не испаряется! Опять точечка!</li>
+</ul>
+
+<!--TABLES-->
+<p>
+<table> <!--defines border of the table-->
+    <thead> <!--The head of the table-->
+    <tr> <!--Row in a table/ строка-->
+        <th>First cell in a table</th> <!--th - if this is a header EVERY TIME-->
+        <th>Second cell</th>
+        <th>Third cell</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr> <!--Row in a table/ строка-->
+        <td>First cell in a table</td> <!--td - ЯЧЕЙКА-->
+        <td>Second cell</td>
+        <td>Third cell</td>
+    </tr>
+    </tbody>
+</table>
+</p>
+<!--If i want to MERGE rows and cells-->
+<p>
+    <table border="2" align="center">
+    <thead> 
+    <tr> 
+        <th>First cell in a table</th>
+        <th>Second cell</th>
+        <th>Third cell</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+
+        <td colspan="2" bgcolor="yellow">Cool</td> <!-- colspan - cell in a row to the right-->
+        <td>Good</td> <!--rowspan - cell with the bottom Инфы в ячейках, с которыми объединяю, быть НЕ ДОЛЖНО, иначе они отделятся и съедут-->
+    </tr>
+    <tr>
+
+        <td>Not cool</td>
+        <td>No</td>
+        <td>Yes</td>
+    </tr>
+    </tbody>
+</table>
+</p>
+
+<!--Special symbols MNEMONICS-->
+<p>
+    <table>
+    <thead>
+        <tr>
+            <th>Symbol</th>
+            <th>Name</th>
+        </tr>
+    </thead>
+    <tr>
+        <td>&clubs;</td>
+        <td> &clubs ;</td>
+    </tr>
+    <tr>
+        <td>&spades;</td>
+        <td>&spades ;</td>
+    </tr>
+    <tr>
+        <td>&hearts;</td>
+        <td>&hearts ;</td>
+    </tr>
+    <tr>
+        <td>&diams;</td>
+        <td>&diams ;</td>
+    </tr>
+</table>
+</p>
+<p>&laquo; кавычки-ёлочки &raquo;</p>
+<p>неразрывный&nbsp;пробел</p>
+<p>looooong&mdash;dash</p>
+<p>without browser recognition &lt;p&gt;&lt;/p&gt;</p>
+<p>simple fraction &frac12;; &frac13;; &frac14; etc</p>
+
+<!--LINKS-->
+<a href="https://ru.wikipedia.org/wiki/%D0%9C%D0%BD%D0%B5%D0%BC%D0%BE%D0%BD%D0%B8%D0%BA%D0%B8_%D0%B2_HTML">Мнемоники в HTML </a>
+<p><a href="#1234">Переход к покупкам Ольги - ссылка с якорем по айди</a></p>
+
+<!--Formatted text - sves formatting as it is without mnemonics-->
+<pre>
+У одной девочки
+               Сильно болел живот от месячных
+                                  И она ненавидела это!
+                                  БЛЯТЬ.
+                                  конец
+</pre>
+<!--How to show code-->
+<code></code>
+<!--IMAGES-->
+<img src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AARPIpk.img?h=1080&w=1920&m=6&q=60&o=f&l=f&x=1671&y=606" alt="Женщина в маске" width="320" height="240">
+<!--AUDIO-->
+<p><audio src="link" controls></audio></p> <!--if there is only one source-->
+<p>
+    <audio controls>
+    <source src="link one">
+    <source src="link two">
+</audio>
+</p>
+<!--VIDEO-->
+<video width="320" height="240"controls>
+    <source src="https://www.w3schools.com/html/movie.mp4">
+</video>
+<!--SHORTER: <video width="320" height="240" controls src="https://www.w3schools.com/html/movie.mp4"></video>-->
+<!--word autoplay is for aitoplay, put where controls put-->
+
+<!--BASIC STRUCTURE of HTML DOCUMENT инфа для браузера headб а body выводится на странице-->
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <title>Базовая разметка HTML</title>
+    </head>
+    <body>
+        <h1></h1>
+        <p></p>
+    </body>
+</html>
+
+<!--META tags - для указания сведений в поисковых системах-->
+<!-- тег <title> нужен для заголовка в поисковых, от 50 до 80 символов рекомендуют-->
+<!-- мета-тег name="description" content="" - краткое описание стр-->
+<!-- og:title; og:description; og:image - набор мета-тегов Open Graph от ФБ, которые дают картинку и описание в соц сетях-->
+<title>Галя и хлеб</title>
+<meta name="description" content="Галя, дай хлеб">
+<meta property="og:title" content="Галя и хлеб">
+
+<!--HTML: link, FAVICON-->
+<link rel="icon" href="https://www.w3schools.com/favicon.ico" sizes="64x64">
+
+<!--HTML: Viewport-->
+<!--width — ширина сайта. Указывается в пикселях. Возможно использование значения device-width для установки ширины страницы равной ширине устройства.
+height — высота сайта. Указывается в пикселях. Возможно использование значения device-height для установки высоты страницы равной высоте устройства.
+initial-scale — начальный коэффициент масштабирования. Может принимать значение от 0.1 до 10. Значение единица масштабирует страницу по умолчанию.
+user-scalable — указывает, может ли пользователь масштабировать страницу, то есть приближать или отдалять её. Принимает значение yes и no-->
+<meta name="viewport" content="width=1024, user-scalable=yes">
+
+<!--HTML: Блочные и строчные элементы-->
+<span>Span является строчным элементом. Он занимает ширину равной ширине своего контента, поэтому переноса строки нет.</span>
+
+<!--HTML: Формы в HTML-->
+<form action="/на какую страницу будут отправлены данные"></form>
+
+<!--HTML: Поле для ввода текста-->
+<form action="/people"><p><input type="text"></p><p><input type="text"></p></form>
+
+<!--HTML: Чекбокс - many options-->
+<form action="/people">
+    <label>
+    <input type="checkbox" name="html" value="html">
+    Хочу, чтоб у меня не болел живот;
+    </label>
+    <br>
+    <label>
+    <input type="checkbox" name="html" value="html">
+    Хочу, чтоб у меня был миллион долларов на счету каждый день;
+    </label></form>
+
+    <!--HTML: Радиокнопка - one option-->
+    <form action="/people">
+        <label>
+          <input type="radio" name="gender" value="male">
+          Male
+        </label>
+        <br>
+        <label>
+          <input type="radio" name="gender" value="female">
+          Female
+        </label>
+        </form>
+
+<!--HTML: Textarea-->
+<form action="/people">
+    <textarea rows="4" cols="30"></textarea>
+  </form>
+
+  <!--HTML: Список-->
+  <form action="/people">
+    <select>
+      <option disabled>Куда идти?</option>
+      <option>Нахуй</option>
+      <option>В пизду</option>
+      <option>Лечь поспать</option>
+    </select>
+  </form>
+
+  <!--HTML: Отправка формы КНОПКА В КОНЦЕ-->
+  <form action="/people">
+    <label>
+      Хуй
+        <input type="text">
+        </label>
+        <br>
+      <label>
+        Нехуй
+        <input type="text">
+      </label>
+      <br>
+    <select multiple>
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+      </select>
+      <button>«Отправить»</button>
+  </form>
+
+  <!--HTML: Семантический WEB для понимания самим браузером где главное, где второстепенное-->
+  <main> <!-- Определение основной части страницы -->
+    <article> <!-- Определение статьи -->
+        <header> <!-- Заголовочная информация статьи -->
+            <h1>Название статьи</h1>
+            <img src="article.png" alt="Заголовок статьи">
+        </header>
+
+        <p>Текст нашей статьи</p>
+
+        <footer> <!-- «Подвал статьи» с указанием автора и даты -->
+          <address> <!-- Информация об авторе статьи -->
+              <p>Автор: Дмитрий</p>
+              <p>Email: dmitry@test.test</p>
+          </address>
+          <time datetime="2019-07-27">27 июля</time> <!-- Дата написания статьи -->
+        </footer>
+    </article>
+</main>
+<!--HORIZONTAL LINE-->
+<hr>
+<p>hr - horizottal line</p>
+<hr>
+<!--Перенос текста-->
+<p>Здесь<br>перенос строки</p>
+
